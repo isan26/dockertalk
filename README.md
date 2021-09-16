@@ -1,3 +1,6 @@
+<img src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/vertical-logo-monochromatic.png?itok=erja9lKc" style="max-width : 250px; margin-left : auto; margin-right: auto; display: block; padding : 50px;">
+
+
 Que es docker,
 -> Introduccion formal
 -> Introduccion terrenal construyendo sobre la formal
