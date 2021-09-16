@@ -1,0 +1,14 @@
+{
+  "name": "basenode",
+  "version": "1.0.0",
+  "description": "Test project for Docker talk",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Isan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
