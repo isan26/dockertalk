@@ -83,8 +83,8 @@ En el navegador ir a http://localhost:8080 se mostrará el texto de ejemplo que 
 - Crear un repository, en este caso ya esta creado el repositorio dockertalk bajo mi cuenta de usuario. Por tanto el nombre de la imagen a subir debe ser el mismo que el repositorio, por eso es que en los pasos anteriores la imagen tenía el nombre de mi usuario y de el repositorio.
  
 - docker login -u isan1989
-- docker build -t isan1989/dockernode .
-- docker push isan1989/dockernode
+- docker build -t isan1989/dockertalk .
+- docker push isan1989/dockertalk
   
 
 ### Link del repositorio
