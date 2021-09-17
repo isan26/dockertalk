@@ -27,6 +27,7 @@ Docker nos va a proporcionar la posibilidad de gestionar las imágenes y contene
 
 Es similar a lo que sucede con las clases y objetos, donde un objeto es una clase instanciada, en este caso los contenedores son los objetos y las imágenes las clases.
 
+## Docker
 Por supuesto hay más conceptos dentro de Docker, de hecho hay multiples recursos y funcionalidades que nos permiten resolver distintos casos, pero todo gira entorno a estos dos simples conceptos, imágenes y volumenes.
 
 Todo muy bien, muy simple, pero
