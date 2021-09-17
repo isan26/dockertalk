@@ -13,7 +13,7 @@ Normalmente estas definiciones son muy complicadas de entender, por ende tambié
 Basicamente necesitamos 2 conceptos que a mi parecer es lo mínimo para entender Docker.
 
 1. Contenedores
-2. Imagenes
+2. imágenes
 
 ## Contendores:
 
@@ -21,22 +21,22 @@ Viene siendo similiar a maquinas virtuales muy pequeñas y que utilizan un minim
 
 ## Imágenes:
 
-Son las "plantillas" de los contenedores, es decir, a partir de "correr" estas imagenes es que se generan los contenedores.
+Son las "plantillas" de los contenedores, es decir, a partir de "correr" estas imágenes es que se generan los contenedores.
 
-Docker nos va a proporcionar la posibilidad de gestionar las imagenes y contenedores, con lo cual podremos controlar cuantos contenedores vamos a tener corriendo en determinado momento, administrar nuestras imagenes e incluso hacer imagenes basandonos en otras imagenes.
+Docker nos va a proporcionar la posibilidad de gestionar las imágenes y contenedores, con lo cual podremos controlar cuantos contenedores vamos a tener corriendo en determinado momento, administrar nuestras imágenes e incluso hacer imágenes basandonos en otras imágenes.
 
-Es similar a lo que sucede con las clases y objetos, donde un objeto es una clase instanciada, en este caso los contenedores son los objetos y las imagenes las clases.
+Es similar a lo que sucede con las clases y objetos, donde un objeto es una clase instanciada, en este caso los contenedores son los objetos y las imágenes las clases.
 
-Por supuesto hay más conceptos dentro de Docker, de hecho hay multiples recursos y funcionalidades que nos permiten resolver distintos casos, pero todo gira entorno a estos dos simples conceptos, imagenes y volumenes.
+Por supuesto hay más conceptos dentro de Docker, de hecho hay multiples recursos y funcionalidades que nos permiten resolver distintos casos, pero todo gira entorno a estos dos simples conceptos, imágenes y volumenes.
 
 Todo muy bien, muy simple, pero
 Para que necesito esto? A mi como desarrollador para que me sirve Docker.
 
 1. Para asegurar que mi código va a funcionar en cualquier otro lugar y no solo en mi computadora.
-   Al crear una imagen con todo lo que necesita el proyecto para correr, es extremandamente practico a la hora de instalar y ejecutar un proyecto, porque ya no estamos expuestos a los cambios en los ambientes, a que si debo tener una version especifica de X o Y librería. Por ende a priori elimina el funciona en mi PC.
+   Al crear una imagen con todo lo que necesita el proyecto para correr, es extremandamente practico a la hora de instalar y ejecutar un proyecto, porque ya no estamos expuestos a los cambios en los ambientes, a que si debo tener una versión especifica de X o Y librería. Por ende a priori elimina el funciona en mi PC.
 
 2. Instalar y probar software.
-   Existen muchas imagenes listas para ser descargadas y utilizadas en repositorios de imagenes como docker hub, por ejemplo si necesitamos levantar un servidor de MySQL, o mongoDB o redis o practicamente cualquier servicio que necesitemos es muy probable que ya exista la imagen lista para ser descargada y utilizada, la gran ventaja de esto es que requiere un minimo para empezar y lo segundo es que nos podemos deshacer de dicha imagen y contenedores cuando no lo necesitemos. Lo mismo aplica cuando necesitamos distintas versiones de una misma tecnología, simplemente descargarnos la imagene de la versión especifica, correrla y listo.
+   Existen muchas imágenes listas para ser descargadas y utilizadas en repositorios de imágenes como docker hub, por ejemplo si necesitamos levantar un servidor de MySQL, o mongoDB o redis o practicamente cualquier servicio que necesitemos es muy probable que ya exista la imagen lista para ser descargada y utilizada, la gran ventaja de esto es que requiere un minimo para empezar y lo segundo es que nos podemos deshacer de dicha imagen y contenedores cuando no lo necesitemos. Lo mismo aplica cuando necesitamos distintas versiones de una misma tecnología, simplemente descargarnos la imagene de la versión especifica, correrla y listo.
 
 Y en mi organización, cuales son las aplicaciones?
 
@@ -51,7 +51,7 @@ Y en mi organización, cuales son las aplicaciones?
 
 - Dockerfile: Es un fichero de texto que contiene instrucciones para crear una imagen.
 
-- Docker Hub : El Repositorio oficial de imagenes de Docker.
+- Docker Hub : El Repositorio oficial de imágenes de Docker.
 
 # Comandos:
 
@@ -63,13 +63,13 @@ Y en mi organización, cuales son las aplicaciones?
 
 	 docker run nginx
 
-## image : utilidad para gestionar imagenes
+## image : utilidad para gestionar imágenes
 
-> ls -> Lista las imagenes instaladas
+> ls -> Lista las imágenes instaladas
 
 > build -> Construye imagen a partir de un Dockerfile
 
-> prune -> Elimina imagenes no utilizadas
+> prune -> Elimina imágenes no utilizadas
 
 > pull -> Descarga imagen de docker hub
 
@@ -131,5 +131,5 @@ Ejemplos de uso:
 
 # Ejemplos
 
-1.  [Corriendo una aplicacion](Example1/)
+1.  [Corriendo una aplicación](Example1/)
 2.  [Crear una image y subirla a dockerhub](Example2/)
