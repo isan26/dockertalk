@@ -40,6 +40,7 @@ Descripción del comando:
 - Ir a settings/Endpoints
 - Seleccionar Docker (Directly connect to the Docker API)
 - Poner nombre al ambiente
+- Activar "Connect via socket"
 - Add endpoint
  
 ![Screen capture!](./portainerconfig.png)
